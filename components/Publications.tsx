@@ -38,7 +38,7 @@ const Publications = () => {
             >
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="p-8 rounded-2xl bg-gradient-to-br from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-white/10 hover:border-purple-500/30 transition-all duration-300"
+                className=" mb-5 p-8 rounded-2xl bg-gradient-to-br from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-white/10 hover:border-purple-500/30 transition-all duration-300"
               >
                 {/* Status badge */}
                 <div className="flex items-center gap-4 mb-6">

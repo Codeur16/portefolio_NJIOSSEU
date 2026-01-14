@@ -61,8 +61,8 @@ export const projects = [
     category: 'fullstack',
     featured: true,
     image: 'images/Tsotsa.png',
-    shortDescription: 'Recruitment system based on AHP algorithm to intelligently match candidates and opportunities',
-    fullDescription: 'An advanced recruitment platform that uses the Analytic Hierarchy Process (AHP) to perform multi-criteria analysis and intelligently match candidates with job opportunities. The system considers technical skills, experience, education, and soft skills to provide accurate recommendations.',
+    shortDescription: 'Food data platform ',
+    fullDescription: 'TSOTSA introduces an innovative approach: an intelligent platform that centralizes, analyzes, and visualizes nutritional data from diverse food sources around the world. By integrating scientific knowledge with cultural insights, our application helps users make informed dietary choices and promotes healthier, more sustainable eating habits. Together, we can build a better-informed global community that values and preserves its rich culinary diversity.',
     problemSolved: 'Acces to food data in Africa.',
     technologies: ['Next.js', 'TypeScript', 'Node.js', 'TailwindCSS'],
     features: [
@@ -103,29 +103,28 @@ export const projects = [
     title: 'GOFID - Rewards System',
     category: 'fullstack',
     featured: true,
-    image: '',
+    image: '/images/gofid.png',
     shortDescription: 'Digital platform for managing loyalty and rewards programs',
     fullDescription: 'A comprehensive loyalty program management system that enables businesses to create, manage, and track reward programs to enhance customer engagement and retention. Features gamification and smart reward mechanisms.',
     problemSolved: 'Businesses need modern tools to build customer loyalty. GOFID offers a turnkey solution with real-time tracking, gamification, and secure payment integration.',
-    technologies: ['React', 'Next.js', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
+    technologies: ['Express', 'Next.js', 'Node.js', 'MariaDB', 'planethoster', 'Tailwind CSS'],
     features: [
       'Scalable rewards distribution system',
       'Real-time tracking dashboard',
       'Gamification mechanics',
-      'Secure payment integration',
       'REST API for third-party integrations'
     ],
-    github: 'https://github.com/Codeur16/gofid-rewards',
-    demo: 'https://gofid-demo.vercel.app',
-    year: '2023-2024',
+    github: 'https://github.com/gocasbe/gofid (Private)',
+    demo: 'https://gofid.vercel.app/',
+    year: '2024',
     client: 'GOCAS'
   },
   {
     id: 4,
     title: 'Interactive Personal Portfolio',
-    category: 'design',
+    category: 'fullstack',
     featured: true,
-    image: '',
+    image: '/images/portefolio.png',
     shortDescription: 'Modern portfolio with animations and glassmorphism effects',
     fullDescription: 'TSOTSA introduces an innovative approach: an intelligent platform that centralizes, analyzes, and visualizes nutritional data from diverse food sources around the world. By integrating scientific knowledge with cultural insights, our application helps users make informed dietary choices and promotes healthier, more sustainable eating habits. Together, we can build a better-informed global community that values and preserves its rich culinary diversity.',
     problemSolved: 'Creating a professional and memorable online presence that stands out in a competitive market.',
@@ -137,31 +136,28 @@ export const projects = [
       'Fully responsive',
       'Optimized performance'
     ],
-    github: 'https://github.com/Codeur16/portfolio',
-    demo: 'https://njiosseu-loic.vercel.app',
-    year: '2025',
+    github: 'https://github.com/Codeur16/portefolio_NJIOSSEU/',
+    demo: 'https://charles-njiosseu-portfolio.vercel.app/',
+    year: '2023',
     client: 'Personal'
   },
   {
     id: 5,
-    title: 'Smart Automation Workflows',
+    title: 'Secure Table Annotation',
     category: 'automation',
     featured: false,
-    image: '',
-    shortDescription: 'Creating automated workflows with n8n and AI agent integration',
-    fullDescription: 'Development of complex automation workflows using n8n to connect various services and APIs. Integration of AI agents to automate repetitive tasks and improve operational efficiency.',
-    problemSolved: 'Businesses waste time on repetitive manual tasks. These workflows automate processes and free up time for higher-value activities.',
-    technologies: ['n8n', 'Node.js', 'APIs', 'AI Agents', 'Webhooks'],
+    image: '/images/secutable.png',
+    shortDescription: 'Automatic annotation of tabular data',
+    fullDescription: 'Automatic annotation of tabular data using SPARQL queries and extraction of annotations from raw annotations.',
+    problemSolved: '',
+    technologies: [ 'Python', 'httpRequests', 'Sepses knowledge graph', 'Sementic matching'],
     features: [
-      'Business process automation',
-      'Multi-service integration',
-      'AI agents for smart decisions',
-      'Monitoring and alerts',
-      'Scalability and reliability'
+      'Fetch the raws annotations',
+      'Extract the URI'
     ],
     github: null,
     demo: null,
-    year: '2023-2024',
+    year: '2025',
     client: 'GOCAS'
   },
   {
@@ -186,28 +182,207 @@ export const projects = [
     year: '2023',
     client: 'Freelance'
   },
-  {
-    id: 7,
-    title: 'Portfolio Personnel',
-    category: 'design',
-    featured: true,
-    image: '',
-    shortDescription: 'Portfolio personnel moderne avec animations fluides et design épuré',
-    fullDescription: 'Un portfolio personnel moderne mettant en valeur mes compétences en développement web et en design. Le site présente une expérience utilisateur fluide avec des animations subtiles, un design responsive et une navigation intuitive.',
-    problemSolved: 'Création d\'une présence en ligne professionnelle pour présenter mes projets et compétences de manière attrayante.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    features: [
-      'Design moderne et épuré',
-      'Animations fluides avec Framer Motion',
-      'Mode sombre/clair',
-      'Optimisé pour le référencement',
-      'Temps de chargement rapide'
-    ],
-    github: 'https://github.com/Codeur16/portfolio',
-    demo: 'https://njiosseu-loic.vercel.app',
-    year: '2025',
-    client: 'Personnel'
-  }
+{
+  id: 7,
+  title: 'E-commerce Website – Lebize',
+  category: 'fullstack',
+  featured: true,
+  image: '/images/lebize.png',
+  shortDescription: 'Modern WordPress e-commerce website with a clean design and product catalog',
+  fullDescription: 'Lebize is an e-commerce platform based in Cameroon, developed using WordPress and WooCommerce. The website offers a wide range of products including fashion, accessories, home goods, beauty, and electronics. It provides a smooth user experience with intuitive navigation, a responsive layout, and well-structured product pages optimized for both desktop and mobile devices.',
+  problemSolved: 'Created a professional online store to enable online sales and improve the company’s digital visibility.',
+  technologies: [
+    'WordPress',
+    'WooCommerce',
+    'PHP',
+    'HTML',
+    'CSS',
+    'JavaScript'
+  ],
+  features: [
+    'WooCommerce-based online store',
+    'Product catalog organized by categories',
+    'Modern and responsive design',
+    'Simple and intuitive checkout process',
+    'Basic SEO optimization'
+  ],
+  github: '',
+  demo: 'https://lebize.cm',
+  year: '2025',
+  client: 'Lebize'
+},
+{
+  id: 8,
+  title: 'Corporate Website – Globotical IT Consulting',
+  category: 'fullstack',
+  featured: true,
+  image: '/images/globotocal.png',
+  shortDescription: 'Professional IT consulting website with a modern and responsive design',
+  fullDescription: 'Globotical IT Consulting is a technology solutions company offering web and mobile development, digital marketing, and business management solutions. The website was developed to showcase their services, portfolio, and company information. It features a responsive design, intuitive navigation, and integrates information about web development, SEO, mobile apps, and graphic design services.',
+  problemSolved: 'Created a professional online presence for Globotical IT Consulting to attract clients and communicate services effectively.',
+  technologies: [
+    'HTML',
+    'CSS',
+    'WordPress',
+    'PHP',
+    'Responsive Design'
+  ],
+  features: [
+    'Showcase of IT services and solutions',
+    'Portfolio section highlighting projects',
+    'Responsive and modern layout',
+    'SEO-friendly structure',
+    'Contact form for client inquiries'
+  ],
+  github: '',
+  demo: 'https://globotical.com/',
+  year: '2025',
+  client: 'GOCAS'
+},
+{
+  id: 9,
+  title: 'Automobile Services – Valtransauto',
+  category: 'fullstack',
+  featured: false,
+  image: '/images/valtransauto.png',
+  shortDescription: 'Online showcase for a used car dealership',
+  fullDescription: 'Valtransauto is a website representing a used car dealership located in Mons, Belgium. The site showcases the services offered by the dealership, contact and business information for clients interested in buying or maintaining used vehicles. The design is responsive and allows easy access to the essential information.',
+  problemSolved: 'Creating a professional online presence for Valtransauto to present the dealership services and facilitate client contact.',
+  technologies: [
+    'Next.js',
+    'Tailwind CSS',
+    'Responsive Design',
+    'Superbase'
+  ],
+  features: [
+    'Presentation of the dealership services',
+    'Business contact and location information',
+    'Responsive interface adapted for mobiles',
+    'Simple and direct navigation'
+  ],
+  github: 'https://github.com/Codeur16/Valtransauto',
+  demo: 'https://valtransauto-beta.vercel.app/',
+  year: '2025',
+  client: 'Valtransauto'
+},
+{
+  id: 10,
+  title: 'UX Design – Trans-Universal Voyage',
+  category: 'design',
+  featured: true,
+  image: '/images/transuniversal.png',
+  shortDescription: 'UX design for a travel booking platform with a clear and intuitive interface',
+  fullDescription: 'Trans-Universal Voyage is a travel and transportation booking platform. The main goal was to create a smooth, simple, and enjoyable user experience for travelers. The project includes interface design, intuitive navigation, information hierarchy, and optimized user flows for both desktop and mobile. The design was created on Figma to allow rapid prototyping and user testing.',
+  problemSolved: 'Enhanced the online booking experience to reduce friction and make navigation easier for users.',
+  technologies: [
+    'Figma',
+    'User Interface',
+    'Responsive Design'
+  ],
+  features: [
+    'Optimized user flows for travel booking',
+    'Clear and intuitive interface',
+    'Responsive design for all devices',
+    'Interactive wireframes and prototypes on Figma',
+    'User testing and iterations based on feedback'
+  ],
+  github: '',
+  demo: 'https://www.figma.com/design/GZ2YpNlHm8F22kcDCKBdGd/TRANS-UNIVERSAL-VOYAGE-PREVIEW?node-id=0-1&p=f&t=Jlq2hv6aavSPq1yu-0', // replace XXXXXXXX with actual Figma link
+  year: '2025',
+  client: 'Trans-Universal Voyage'
+},
+{
+  id: 11,
+  title: 'System Architecture Design',
+  category: 'design',
+  featured: true,
+  image: '/images/Atchitecture1.png',
+  shortDescription: 'Design of scalable and robust system architectures for enterprise applications',
+  fullDescription: 'This project involved creating the system architecture for a complex enterprise platform, including microservices structure, database schema design, API design, and integration flows. The focus was on scalability, security, maintainability, and high availability. Diagrams and documentation were prepared to guide the development team and stakeholders through the system’s components and interactions.',
+  problemSolved: 'Provided a clear, scalable, and maintainable architecture to ensure smooth development and deployment of enterprise applications.',
+  technologies: [
+    'UML',
+    'C4 Model',
+    'Diagrams (Figma / Lucidchart)',
+    'Microservices Architecture',
+    'RESTful APIs',
+    'Database Design'
+  ],
+  features: [
+    'Microservices-based architecture design',
+    'Clear component and service interaction diagrams',
+    'Database schema design for scalability',
+    'API design and integration flows',
+    'Documentation for development and deployment'
+  ],
+  github: '',
+  demo: 'https://www.figma.com/design/GZ2YpNlHm8F22kcDCKBdGd/TRANS-UNIVERSAL-VOYAGE-PREVIEW?node-id=0-1&p=f&t=antKvoto1iCwYTmB-0',
+  year: '2022 - 2025',
+  client: 'Academic / Enterprise Project'
+},
+{
+  id: 12,
+  title: 'Flyers Design',
+  category: 'design',
+  featured: true,
+  image: '/images/FLyers1.png',
+  shortDescription: 'Creative and eye-catching flyers for marketing and promotional campaigns',
+  fullDescription: 'Designed multiple flyers for businesses and events, focusing on visual appeal, clear messaging, and brand consistency. Each design was tailored to the client’s objectives, target audience, and distribution channels, ensuring maximum engagement. Tools used included Adobe Illustrator and Photoshop for professional results.',
+  problemSolved: 'Helped clients effectively promote their services and events through visually compelling flyers.',
+  technologies: [
+    'Adobe Illustrator',
+    'Adobe Photoshop',
+    'Canva',
+    'Graphic Design Principles',
+    'Typography & Color Theory'
+  ],
+  features: [
+    'Custom flyer layouts for print and digital',
+    'Brand-consistent visuals and messaging',
+    'High-resolution and print-ready designs',
+    'Optimized for social media sharing',
+    'Quick turnaround for campaigns'
+  ],
+  github: '',
+  demo: 'https://drive.google.com/drive/u/0/folders/1e8cdq9lr-D7Zrsdf_PpD9aYJzjqKLydx',
+  year: '2023 - 2025',
+  client: 'Various Clients'
+},
+{
+  id: 14,
+  title: 'Automation Workflow – WhatsApp Assistant for Car Sales',
+  category: 'automation',
+  featured: true,
+  image: '/images/n8n.png',
+  shortDescription: 'Automated WhatsApp responses for a car sales company using n8n workflows',
+  fullDescription: 'Developed an automated assistant using n8n to manage customer interactions on WhatsApp for a car sales company. The system handles incoming messages, provides instant responses, shares vehicle information, schedules appointments, and routes complex queries to human agents. This workflow significantly improved response times, customer satisfaction, and overall efficiency of the sales process.',
+  problemSolved: 'Reduced response times and manual workload by automating customer support and inquiries on WhatsApp.',
+  technologies: [
+    'n8n',
+    'WhatsApp Business API',
+    'Node.js',
+    'Automation Workflows',
+    'API Integrations'
+  ],
+  features: [
+    'Automated instant replies to customer messages',
+    'Vehicle information and pricing shared automatically',
+    'Appointment scheduling integration',
+    'Routing complex inquiries to human agents',
+    'Dashboard for monitoring interactions and workflow performance'
+  ],
+  github: '',
+  demo: '',
+  year: '2025',
+  client: 'Valtransauto -GOCAS'
+}
+
+
+
+
+
+
+
 ];
 
 export const experience = [
@@ -270,8 +445,19 @@ export const education = [
 ];
 
 export const publications = [
-  {
+   {
     id: 1,
+    title: 'Shortcut Learning Mitigation in LLMs Finetuning Using a Neuro-Symbolic Approach',
+    conference: 'To Be Submitted',
+    year: '2026',
+    status: 'In Process',
+    description: 'Research focused on reducing shortcut learning during the finetuning of large language models (LLMs) by leveraging neuro-symbolic techniques. The study implements rule-based regularization to detect and penalize the use of shortcuts, improving model generalization, reducing biased patterns, and enhancing reasoning capabilities.',
+    topics: ['Large Language Models', 'Shortcut Learning', 'Neuro-Symbolic AI', 'Finetuning', 'Machine Learning', 'NLP', 'Rule-based Regularization'],
+    abstract: 'This study investigates methods to mitigate shortcut learning in LLMs during finetuning by integrating symbolic reasoning with neural approaches. It employs rule-based regularization to detect and penalize shortcuts, thereby enhancing model robustness, generalization, and performance on complex, structured tasks.',
+    link: null
+  },
+  {
+    id: 2,
     title: 'Retrieval-Augmented Generation for Food Data in Africa',
     conference: 'SIGIR 2025',
     year: '2025',
@@ -281,6 +467,10 @@ export const publications = [
     abstract: 'This research explores how RAG systems can be adapted to better serve the African context, particularly in the food domain where data is often fragmented and culturally specific.',
     link: null
   }
+ 
+
+
+
 ];
 
 export const skills = {

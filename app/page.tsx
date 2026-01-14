@@ -35,6 +35,7 @@ import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
 import Publications from '@/components/Publications';
 import Contact from '@/components/Contact';
+import Education from '@/components/Education';
 import BackgroundEffect from '@/components/BackgroundEffect';
 import ScrollProgressIndicator from '@/components/ScrollProgressIndicator';
 import SectionWrapper from '@/components/SectionWrapper';
@@ -87,6 +88,13 @@ export default function Home() {
         <ParallaxBackground speed={-0.1}>
           <SectionWrapper id="experience" delay={0.4}>
             <Experience />
+          </SectionWrapper>
+        </ParallaxBackground>
+
+        {/* Formation */}
+        <ParallaxBackground speed={0.15}>
+          <SectionWrapper id="education" delay={0.45}>
+            <Education />
           </SectionWrapper>
         </ParallaxBackground>
 

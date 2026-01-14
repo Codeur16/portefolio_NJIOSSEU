@@ -50,7 +50,7 @@ const ProjectsGallery = () => {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 mb-4">
-            <Sparkles className="w-6 h-6 text-purple-400" />
+            {/* <Sparkles className="w-6 h-6 text-purple-400" /> */}
             <span className="text-purple-400 text-sm font-mono uppercase tracking-wider">
               Portfolio
             </span>

@@ -14,8 +14,8 @@ export const experience = [
     id: 1,
     company: 'GOCAS',
     role: 'Full-Stack Developer & AI Integrator',
-    period: '2023 - Present',
-    location: 'Yaoundé, Cameroon',
+    period: '2024 - 2025',
+    location: 'Remote',
     description: 'Leading development and AI integration initiatives, designing and implementing intelligent systems and workflows.',
     highlights: [
       'Developed intelligent e-recruitment platform using AHP-based algorithms',
@@ -28,7 +28,7 @@ export const experience = [
     id: 2,
     company: '3M Consulting',
     role: 'Full-Stack Developer & Consultant',
-    period: '2022 - 2023',
+    period: '2023',
     location: 'Yaoundé, Cameroon',
     description: 'Provided technical consulting and development services for various client projects.',
     highlights: [
@@ -69,23 +69,49 @@ export const projects = [
   }
 ];
 
+// export const publications = [
+//   {
+//     id: 1,
+//     title: 'Retrieval-Augmented Generation for Food Data in Africa',
+//     conference: 'SIGIR 2025',
+//     year: '2025',
+//     description: 'Research on applying RAG (Retrieval-Augmented Generation) techniques to improve information retrieval and generation for African food data, addressing unique challenges in data representation and cultural context.',
+//     topics: ['Information Retrieval', 'RAG', 'AI/ML', 'African Food Systems', 'NLP'],
+//     status: 'Accepted'
+//   }
+// ];
+
+
 export const publications = [
   {
     id: 1,
     title: 'Retrieval-Augmented Generation for Food Data in Africa',
     conference: 'SIGIR 2025',
     year: '2025',
-    description: 'Research on applying RAG (Retrieval-Augmented Generation) techniques to improve information retrieval and generation for African food data, addressing unique challenges in data representation and cultural context.',
+    status: 'Accepted',
+    description: 'Research on the application of RAG (Retrieval-Augmented Generation) techniques to improve information retrieval and generation for African food data, addressing unique challenges in data representation and cultural context.',
     topics: ['Information Retrieval', 'RAG', 'AI/ML', 'African Food Systems', 'NLP'],
-    status: 'Accepted'
-  }
-];
-
+    abstract: 'This research explores how RAG systems can be adapted to better serve the African context, particularly in the food domain where data is often fragmented and culturally specific.',
+    link: null
+  }, 
+  // {
+  //   id: 1,
+  //   title: 'Shortcut Learning Mitigation in LLMs Finetuning Using a Neuro-Symbolic Approach',
+  //   conference: 'To Be Submitted',
+  //   year: '2026',
+  //   status: 'In Process',
+  //   description: 'Research focused on reducing shortcut learning during the finetuning of large language models (LLMs) by leveraging neuro-symbolic techniques. The study implements rule-based regularization to detect and penalize the use of shortcuts, improving model generalization, reducing biased patterns, and enhancing reasoning capabilities.',
+  //   topics: ['Large Language Models', 'Shortcut Learning', 'Neuro-Symbolic AI', 'Finetuning', 'Machine Learning', 'NLP', 'Rule-based Regularization'],
+  //   abstract: 'This study investigates methods to mitigate shortcut learning in LLMs during finetuning by integrating symbolic reasoning with neural approaches. It employs rule-based regularization to detect and penalize shortcuts, thereby enhancing model robustness, generalization, and performance on complex, structured tasks.',
+  //   link: null
+  // }
+  
+]
 export const skills = {
   frontend: [
-    { name: 'React', level: 90 },
-    { name: 'Next.js', level: 90 },
-    { name: 'TypeScript', level: 85 },
+    { name: 'React', level: 80 },
+    { name: 'Next.js', level: 85 },
+    { name: 'TypeScript', level: 80 },
     { name: 'Tailwind CSS', level: 95 },
     { name: 'JavaScript', level: 90 },
     { name: 'HTML/CSS', level: 95 }
@@ -93,29 +119,38 @@ export const skills = {
   backend: [
     { name: 'Node.js', level: 85 },
     { name: 'REST APIs', level: 85 },
-    { name: 'MongoDB', level: 75 },
-    { name: 'Express.js', level: 80 }
+    { name: 'MongoDB', level: 55 },
+    { name: 'Express.js', level: 85 }
   ],
   aiAutomation: [
     { name: 'n8n Workflows', level: 85 },
     { name: 'AI Agents', level: 80 },
-    { name: 'RAG Systems', level: 75 },
-    { name: 'Prompt Engineering', level: 80 }
+    { name: 'RAG Systems', level: 750 },
+    { name: 'Prompt Engineering', level: 70 }
   ],
   design: [
     { name: 'Figma', level: 85 },
-    { name: 'Adobe Illustrator', level: 75 },
+    { name: 'Adobe Illustrator', level: 60 },
     { name: 'UI/UX Design', level: 85 },
-    { name: 'Design Systems', level: 80 }
+    { name: 'Graphics Design', level: 70 }
   ]
 };
 
 export const education = [
-  {
+    {
     id: 1,
+    degree: 'Master degree in Computer Science',
+    Speciality:'Information system and software engineering',
+    institution: 'University of Yaoundé 1',
+    period: '2023 - 2025',
+    location: 'Yaoundé, Cameroon'
+  },
+  {
+    id: 2,
     degree: 'Bachelor in Computer Science',
-    institution: 'University of Yaoundé',
-    period: '2019 - 2022',
+    Speciality:'Information system and software engineering',
+    institution: 'University of Yaoundé 1',
+    period: '2020 - 2023',
     location: 'Yaoundé, Cameroon'
   }
 ];
