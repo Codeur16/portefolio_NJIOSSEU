@@ -6,8 +6,13 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Njiosseu Charles Loic - Portfolio | Full-Stack Developer & AI Integrator',
-  description: 'Portfolio professionnel de Njiosseu Charles Loic - Développeur Full-Stack, Designer UI/UX, Intégrateur IA et Chercheur IA Junior. Découvrez mes projets et compétences en React, Next.js, Node.js et automatisation IA.',
-  keywords: 'Portfolio, Full-Stack Developer, AI Integrator, UI/UX Designer, React, Next.js, Node.js, n8n, AI Researcher, Cameroun, Yaoundé',
+  description: 'Professional portfolio of Njiosseu Charles Loic - Full-Stack Developer, UI/UX Designer, AI Integrator, and Junior AI Researcher. Discover my projects and expertise in React, Next.js, Node.js, and AI automation.',
+  keywords: 'Portfolio, Full-Stack Developer, AI Integrator, UI/UX Designer, React, Next.js, Node.js, n8n, AI Researcher, Cameroon, Yaoundé',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

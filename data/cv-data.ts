@@ -5,7 +5,7 @@ export const personalInfo = {
   email: 'charlesnjiosseu2@gmail.com',
   phone: '+237 698 780 137',
   github: 'https://github.com/Codeur16',
-  linkedin: 'https://www.linkedin.com/in/njiosseu-loic',
+  linkedin: 'https://www.linkedin.com/in/charles-njiosseu-172b0629b/',
   summary: 'Innovative Full-Stack Developer with expertise in AI integration and UI/UX design. Passionate about creating intelligent solutions that bridge the gap between cutting-edge technology and user experience. Research contributor in AI and information retrieval.'
 };
 

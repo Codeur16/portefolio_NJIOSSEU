@@ -1,54 +1,54 @@
 export const personalInfo = {
-  name: 'Njiosseu Charles Loic',
+  name: 'NJIOSSEU Charles Loic',
   nickname: 'Loic',
-  title: 'Full-Stack Developer | UI/UX Designer | AI Integrator',
-  subtitle: 'Junior AI Researcher',
-  tagline: 'Je transforme des idées complexes en solutions intelligentes qui connectent la technologie et l\'expérience utilisateur',
+  title: 'Full-Stack Developer | UI/UX Designer',
+  subtitle: 'AI Research Enthusiast',
+  tagline: 'I transform complex ideas into intelligent solutions that connect technology and user experience',
   location: 'Yaoundé, Cameroon',
   email: 'charlesnjiosseu2@gmail.com',
   phone: '+237 698 780 137',
   github: 'https://github.com/Codeur16',
   linkedin: 'https://www.linkedin.com/in/njiosseu-loic',
-  availability: 'Disponible pour de nouvelles opportunités'
+  availability: 'Available for new opportunities'
 };
 
 export const stats = [
-  { label: 'Années d\'Expérience', value: '3+' },
-  { label: 'Projets Réalisés', value: '25+' },
-  { label: 'Technologies Maîtrisées', value: '20+' },
-  { label: 'Publications Scientifiques', value: '1' }
+  { label: 'Years of Experience', value: '2+' },
+  { label: 'Projects Completed', value: '10+' },
+  { label: 'Technologies Mastered', value: '8+' },
+  { label: 'Scientific Publications', value: '1' }
 ];
 
 export const services = [
   {
     id: 1,
     number: '01',
-    title: 'Développement Web Full-Stack',
-    description: 'Création d\'applications web complètes et performantes avec React, Next.js et Node.js. De l\'architecture backend à l\'interface utilisateur, je construis des solutions robustes et scalables.',
+    title: 'Full-Stack Web Development',
+    description: 'Building complete and high-performance web applications with React, Next.js, and Node.js. From backend architecture to user interface, I create robust and scalable solutions.',
     icon: 'Code2',
     technologies: ['React', 'Next.js', 'Node.js', 'MongoDB', 'TypeScript']
   },
   {
     id: 2,
-    title: 'Design UI/UX',
+    title: 'UI/UX Design',
     number: '02',
-    description: 'Conception d\'interfaces utilisateur modernes et intuitives. Je crée des expériences visuelles qui allient esthétique et fonctionnalité, en utilisant Figma et les meilleures pratiques du design.',
+    description: 'Designing modern and intuitive user interfaces. I create visual experiences that combine aesthetics and functionality using Figma and design best practices.',
     icon: 'Palette',
     technologies: ['Figma', 'Adobe Illustrator', 'Design Systems', 'Prototyping']
   },
   {
     id: 3,
-    title: 'Intégration IA & Automatisation',
+    title: 'AI Integration & Automation',
     number: '03',
-    description: 'Implémentation de solutions d\'intelligence artificielle et d\'automatisation intelligente. Création de workflows automatisés avec n8n et intégration d\'agents IA pour optimiser les processus.',
+    description: 'Implementing AI solutions and smart automation. Creating automated workflows with n8n and integrating AI agents to optimize business processes.',
     icon: 'Sparkles',
     technologies: ['n8n', 'AI Agents', 'RAG Systems', 'Workflow Automation']
   },
   {
     id: 4,
-    title: 'Recherche & Innovation',
+    title: 'Research & Innovation',
     number: '04',
-    description: 'Contribution à la recherche en intelligence artificielle et retrieval d\'information. Exploration de nouvelles approches pour résoudre des problèmes complexes dans le domaine de l\'IA.',
+    description: 'Contributing to AI and information retrieval research. Exploring new approaches to solve complex problems in the field of artificial intelligence.',
     icon: 'BookOpen',
     technologies: ['Machine Learning', 'NLP', 'Information Retrieval', 'RAG']
   }
@@ -56,21 +56,42 @@ export const services = [
 
 export const projects = [
   {
-    id: 1,
-    title: 'Plateforme E-Recrutement Intelligente',
+     id: 1,
+    title: 'Tsotsa Plateform',
+    category: 'fullstack',
+    featured: true,
+    image: 'images/Tsotsa.png',
+    shortDescription: 'Recruitment system based on AHP algorithm to intelligently match candidates and opportunities',
+    fullDescription: 'An advanced recruitment platform that uses the Analytic Hierarchy Process (AHP) to perform multi-criteria analysis and intelligently match candidates with job opportunities. The system considers technical skills, experience, education, and soft skills to provide accurate recommendations.',
+    problemSolved: 'Acces to food data in Africa.',
+    technologies: ['Next.js', 'TypeScript', 'Node.js', 'TailwindCSS'],
+    features: [
+      'Information',
+      'Food search',
+      'Tsotsa Assistant',
+      'Download food Datasets'
+    ],
+    github: 'https://gitlab.com/Codeur16/recruitment-platform',
+    demo: "https://tsotsa.org/",
+    year: '2025',
+    client: 'TSOTSA'
+  },
+  {
+    id: 2,
+    title: 'Intelligent E-Recruitment Platform',
     category: 'ai-web',
     featured: true,
-    image: '/projects/recruitment-platform.jpg',
-    shortDescription: 'Système de recrutement basé sur l\'algorithme AHP pour matcher intelligemment candidats et opportunités',
-    fullDescription: 'Une plateforme avancée de recrutement qui utilise l\'Analytic Hierarchy Process (AHP) pour effectuer une analyse multicritères et matcher intelligemment les candidats avec les opportunités d\'emploi. Le système prend en compte les compétences techniques, l\'expérience, la formation et les soft skills pour fournir des recommandations précises.',
-    problemSolved: 'Les processus de recrutement traditionnels sont longs et peu précis. Cette solution réduit le temps de recrutement de 40% et améliore significativement la qualité des matchs candidat-poste.',
+    image: '',
+    shortDescription: 'Recruitment system based on AHP algorithm to intelligently match candidates and opportunities',
+    fullDescription: 'An advanced recruitment platform that uses the Analytic Hierarchy Process (AHP) to perform multi-criteria analysis and intelligently match candidates with job opportunities. The system considers technical skills, experience, education, and soft skills to provide accurate recommendations.',
+    problemSolved: 'Traditional recruitment processes are time-consuming and imprecise. This solution reduces hiring time by 40% and significantly improves candidate-job match quality.',
     technologies: ['Next.js', 'TypeScript', 'Node.js', 'MongoDB', 'AHP Algorithm', 'AI/ML'],
     features: [
-      'Matching intelligent candidat-poste basé sur l\'algorithme AHP',
-      'Tableau de bord analytique pour les recruteurs',
-      'Interface intuitive pour les candidats',
-      'Système de scoring multicritères',
-      'Réduction de 40% du temps de recrutement'
+      'Intelligent candidate-job matching using AHP algorithm',
+      'Analytical dashboard for recruiters',
+      'User-friendly interface for candidates',
+      'Multi-criteria scoring system',
+      '40% reduction in hiring time'
     ],
     github: 'https://github.com/Codeur16/recruitment-platform',
     demo: null,
@@ -78,21 +99,21 @@ export const projects = [
     client: 'GOCAS'
   },
   {
-    id: 2,
-    title: 'GOFID - Système de Récompenses',
+    id: 3,
+    title: 'GOFID - Rewards System',
     category: 'fullstack',
     featured: true,
-    image: '/projects/gofid-rewards.jpg',
-    shortDescription: 'Plateforme digitale de gestion de programmes de fidélité et récompenses',
-    fullDescription: 'Un système complet de gestion de programmes de fidélité permettant aux entreprises de créer, gérer et suivre des programmes de récompenses pour améliorer l\'engagement et la rétention client. Intègre la gamification et des mécanismes de récompense intelligents.',
-    problemSolved: 'Les entreprises ont besoin d\'outils modernes pour fidéliser leurs clients. GOFID offre une solution clé en main avec suivi en temps réel, gamification et intégration de paiements sécurisés.',
+    image: '',
+    shortDescription: 'Digital platform for managing loyalty and rewards programs',
+    fullDescription: 'A comprehensive loyalty program management system that enables businesses to create, manage, and track reward programs to enhance customer engagement and retention. Features gamification and smart reward mechanisms.',
+    problemSolved: 'Businesses need modern tools to build customer loyalty. GOFID offers a turnkey solution with real-time tracking, gamification, and secure payment integration.',
     technologies: ['React', 'Next.js', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind CSS'],
     features: [
-      'Système de distribution de récompenses scalable',
-      'Tableau de bord temps réel pour le suivi',
-      'Mécaniques de gamification',
-      'Intégration de paiements sécurisés',
-      'API REST pour intégrations tierces'
+      'Scalable rewards distribution system',
+      'Real-time tracking dashboard',
+      'Gamification mechanics',
+      'Secure payment integration',
+      'REST API for third-party integrations'
     ],
     github: 'https://github.com/Codeur16/gofid-rewards',
     demo: 'https://gofid-demo.vercel.app',
@@ -100,43 +121,43 @@ export const projects = [
     client: 'GOCAS'
   },
   {
-    id: 3,
-    title: 'Portfolio Personnel Interactif',
+    id: 4,
+    title: 'Interactive Personal Portfolio',
     category: 'design',
     featured: true,
-    image: '/projects/portfolio.jpg',
-    shortDescription: 'Portfolio moderne avec animations et effets glassmorphism',
-    fullDescription: 'Un portfolio personnel ultra-moderne mettant en avant mes compétences et réalisations avec un design sombre élégant, des animations fluides et des effets de glassmorphism. Construit avec les dernières technologies web.',
-    problemSolved: 'Créer une présence en ligne professionnelle et mémorable qui se démarque dans un marché compétitif.',
+    image: '',
+    shortDescription: 'Modern portfolio with animations and glassmorphism effects',
+    fullDescription: 'TSOTSA introduces an innovative approach: an intelligent platform that centralizes, analyzes, and visualizes nutritional data from diverse food sources around the world. By integrating scientific knowledge with cultural insights, our application helps users make informed dietary choices and promotes healthier, more sustainable eating habits. Together, we can build a better-informed global community that values and preserves its rich culinary diversity.',
+    problemSolved: 'Creating a professional and memorable online presence that stands out in a competitive market.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     features: [
-      'Design moderne avec thème sombre',
-      'Animations fluides avec Framer Motion',
-      'Effets de glassmorphism',
-      'Entièrement responsive',
-      'Performance optimisée'
+      'Modern dark theme design',
+      'Smooth animations with Framer Motion',
+      'Glassmorphism effects',
+      'Fully responsive',
+      'Optimized performance'
     ],
     github: 'https://github.com/Codeur16/portfolio',
     demo: 'https://njiosseu-loic.vercel.app',
     year: '2025',
-    client: 'Personnel'
+    client: 'Personal'
   },
   {
-    id: 4,
-    title: 'Workflows d\'Automatisation Intelligente',
+    id: 5,
+    title: 'Smart Automation Workflows',
     category: 'automation',
     featured: false,
-    image: '/projects/automation.jpg',
-    shortDescription: 'Création de workflows automatisés avec n8n et intégration d\'agents IA',
-    fullDescription: 'Développement de workflows d\'automatisation complexes utilisant n8n pour connecter différents services et APIs. Intégration d\'agents IA pour automatiser les tâches répétitives et améliorer l\'efficacité opérationnelle.',
-    problemSolved: 'Les entreprises perdent du temps sur des tâches manuelles répétitives. Ces workflows automatisent les processus et libèrent du temps pour des tâches à plus forte valeur ajoutée.',
+    image: '',
+    shortDescription: 'Creating automated workflows with n8n and AI agent integration',
+    fullDescription: 'Development of complex automation workflows using n8n to connect various services and APIs. Integration of AI agents to automate repetitive tasks and improve operational efficiency.',
+    problemSolved: 'Businesses waste time on repetitive manual tasks. These workflows automate processes and free up time for higher-value activities.',
     technologies: ['n8n', 'Node.js', 'APIs', 'AI Agents', 'Webhooks'],
     features: [
-      'Automatisation de processus métier',
-      'Intégration multi-services',
-      'Agents IA pour décisions intelligentes',
-      'Monitoring et alertes',
-      'Scalabilité et fiabilité'
+      'Business process automation',
+      'Multi-service integration',
+      'AI agents for smart decisions',
+      'Monitoring and alerts',
+      'Scalability and reliability'
     ],
     github: null,
     demo: null,
@@ -144,26 +165,26 @@ export const projects = [
     client: 'GOCAS'
   },
   {
-    id: 5,
-    title: 'Application de Gestion de Tâches',
+    id: 6,
+    title: 'Task Management Application',
     category: 'fullstack',
     featured: false,
-    image: '/projects/task-manager.jpg',
-    shortDescription: 'Application collaborative de gestion de projets et tâches',
-    fullDescription: 'Application web de gestion de tâches et projets permettant aux équipes de collaborer efficacement. Interface intuitive avec drag & drop, notifications en temps réel et tableaux de bord personnalisables.',
-    problemSolved: 'Améliorer la productivité des équipes en offrant un outil simple mais puissant pour organiser le travail.',
+    image: '',
+    shortDescription: 'Collaborative project and task management application',
+    fullDescription: 'Web application for task and project management that enables teams to collaborate effectively. Intuitive interface with drag & drop, real-time notifications, and customizable dashboards.',
+    problemSolved: 'Improving team productivity by providing a simple yet powerful tool for work organization.',
     technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Redux'],
     features: [
-      'Interface drag & drop intuitive',
-      'Collaboration temps réel',
-      'Notifications et rappels',
-      'Tableaux de bord personnalisables',
-      'Gestion des priorités'
+      'Intuitive drag & drop interface',
+      'Real-time collaboration',
+      'Notifications and reminders',
+      'Customizable dashboards',
+      'Priority management'
     ],
-    github: 'https://github.com/Codeur16/task-manager',
+    github: 'https://gitlab.com/Codeur16/task-manager',
     demo: null,
     year: '2023',
-    client: '3M Consulting'
+    client: 'Freelance'
   }
 ];
 
@@ -173,16 +194,16 @@ export const experience = [
     role: 'Full-Stack Developer & AI Integrator',
     company: 'GOCAS',
     location: 'Yaoundé, Cameroon',
-    period: '2023 - Présent',
+    period: '2023 - Present',
     startDate: '2023',
-    endDate: 'Présent',
-    description: 'Lead des initiatives de développement et d\'intégration IA, conception et implémentation de systèmes intelligents et workflows automatisés.',
+    endDate: 'Present',
+    description: 'Leading development and AI integration initiatives, designing and implementing intelligent systems and automated workflows.',
     achievements: [
-      'Développement de la plateforme e-recrutement intelligente avec algorithmes AHP',
-      'Intégration d\'agents IA et workflows d\'automatisation avec n8n',
-      'Architecture et développement de solutions full-stack avec React, Next.js et Node.js',
-      'Lead des initiatives de design UI/UX pour plusieurs projets',
-      'Réduction de 40% du temps de traitement des candidatures'
+      'Development of the intelligent e-recruitment platform with AHP algorithms',
+      'Integration of AI agents and automation workflows with n8n',
+      'Architecture and development of full-stack solutions with React, Next.js, and Node.js',
+      'Leading UI/UX design initiatives for multiple projects',
+      '40% reduction in application processing time'
     ],
     technologies: ['React', 'Next.js', 'Node.js', 'MongoDB', 'n8n', 'AI/ML', 'TypeScript']
   },
@@ -194,13 +215,13 @@ export const experience = [
     period: '2022 - 2023',
     startDate: '2022',
     endDate: '2023',
-    description: 'Conseil technique et développement de solutions pour divers clients entreprises.',
+    description: 'Technical consulting and solution development for various enterprise clients.',
     achievements: [
-      'Livraison d\'applications web sur mesure pour clients entreprises',
-      'Implémentation de designs UI/UX responsives',
-      'Collaboration avec équipes cross-fonctionnelles pour livraison dans les délais',
-      'Mentorat de développeurs juniors',
-      'Mise en place de bonnes pratiques de développement'
+      'Delivery of custom web applications for enterprise clients',
+      'Implementation of responsive UI/UX designs',
+      'Collaboration with cross-functional teams for on-time delivery',
+      'Mentoring junior developers',
+      'Implementation of development best practices'
     ],
     technologies: ['React', 'Node.js', 'MongoDB', 'REST APIs', 'Git']
   }
@@ -209,19 +230,19 @@ export const experience = [
 export const education = [
   {
     id: 1,
-    degree: 'Licence en Informatique',
+    degree: 'Bachelor\'s Degree in Computer Science',
     field: 'Computer Science',
-    institution: 'Université de Yaoundé',
+    institution: 'University of Yaoundé',
     location: 'Yaoundé, Cameroon',
     period: '2019 - 2022',
     startDate: '2019',
     endDate: '2022',
-    description: 'Formation complète en informatique avec spécialisation en développement web et intelligence artificielle.',
+    description: 'Comprehensive computer science education with specialization in web development and artificial intelligence.',
     highlights: [
-      'Spécialisation en développement web',
-      'Introduction à l\'intelligence artificielle',
-      'Projets académiques en équipe',
-      'Bases solides en algorithmique et structures de données'
+      'Specialization in web development',
+      'Introduction to artificial intelligence',
+      'Team academic projects',
+      'Strong foundation in algorithms and data structures'
     ]
   }
 ];
@@ -232,10 +253,10 @@ export const publications = [
     title: 'Retrieval-Augmented Generation for Food Data in Africa',
     conference: 'SIGIR 2025',
     year: '2025',
-    status: 'Accepté',
-    description: 'Recherche sur l\'application de techniques RAG (Retrieval-Augmented Generation) pour améliorer la retrieval d\'information et la génération pour les données alimentaires africaines, en abordant les défis uniques de représentation des données et du contexte culturel.',
+    status: 'Accepted',
+    description: 'Research on the application of RAG (Retrieval-Augmented Generation) techniques to improve information retrieval and generation for African food data, addressing unique challenges in data representation and cultural context.',
     topics: ['Information Retrieval', 'RAG', 'AI/ML', 'African Food Systems', 'NLP'],
-    abstract: 'Cette recherche explore comment les systèmes RAG peuvent être adaptés pour mieux servir le contexte africain, en particulier dans le domaine alimentaire où les données sont souvent fragmentées et culturellement spécifiques.',
+    abstract: 'This research explores how RAG systems can be adapted to better serve the African context, particularly in the food domain where data is often fragmented and culturally specific.',
     link: null
   }
 ];
@@ -273,11 +294,11 @@ export const skills = {
 };
 
 export const projectCategories = [
-  { id: 'all', label: 'Tous les projets' },
-  { id: 'ai-web', label: 'IA & Web' },
+  { id: 'all', label: 'All Projects' },
+  { id: 'ai-web', label: 'AI & Web' },
   { id: 'fullstack', label: 'Full-Stack' },
   { id: 'design', label: 'Design' },
-  { id: 'automation', label: 'Automatisation' }
+  { id: 'automation', label: 'Automation' }
 ];
 
 export const testimonials = [
@@ -288,7 +309,7 @@ export const testimonials = [
     company: 'GOCAS',
     image: '/testimonials/client1.jpg',
     rating: 5,
-    text: 'Charles est un développeur exceptionnel qui comprend rapidement les besoins métier et livre des solutions de haute qualité. Son expertise en IA nous a permis d\'innover dans nos processus.'
+    text: 'Charles is an exceptional developer who quickly understands business needs and delivers high-quality solutions. His AI expertise has enabled us to innovate in our processes.'
   },
   {
     id: 2,
@@ -297,6 +318,6 @@ export const testimonials = [
     company: '3M Consulting',
     image: '/testimonials/client2.jpg',
     rating: 5,
-    text: 'Travailler avec Charles a été un plaisir. Il combine compétences techniques et sens du design pour créer des expériences utilisateur exceptionnelles.'
+    text: 'Working with Charles has been a pleasure. He combines technical skills and design sense to create exceptional user experiences.'
   }
 ];

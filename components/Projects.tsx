@@ -16,14 +16,14 @@ const Projects = () => {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 mb-4">
-            <Rocket className="w-6 h-6 text-purple-400" />
+            {/* <Rocket className="w-6 h-6 text-purple-400" /> */}
             <span className="text-purple-400 text-sm font-mono uppercase tracking-wider">Portfolio</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
             Featured <span className="text-transparent bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text">Projects</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            Innovative solutions combining AI, full-stack development, and intelligent design
+            Discover my latest projects combining cutting-edge technologies and innovative solutions
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const Projects = () => {
 
                 {/* View button */}
                 <button className="flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors duration-300 group/btn">
-                  <span className="text-sm font-medium">View Details</span>
+                  <span className="text-sm font-medium">View Project</span>
                   <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
                 </button>
               </motion.div>

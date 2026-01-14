@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Server, Sparkles, Palette } from 'lucide-react';
+import { Code, Server, Sparkles, Palette, BookOpen } from 'lucide-react';
 import { skills } from '@/data/cv-data';
 
 const skillCategories = [
@@ -19,7 +19,7 @@ const skillCategories = [
   },
   {
     title: 'AI & Automation',
-    icon: Sparkles,
+    icon: BookOpen,
     skills: skills.aiAutomation,
     color: 'from-violet-500 to-purple-500'
   },
@@ -43,14 +43,14 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 mb-4">
-            <Sparkles className="w-6 h-6 text-purple-400" />
-            <span className="text-purple-400 text-sm font-mono uppercase tracking-wider">Expertise</span>
+            {/* <Sparkles className="w-6 h-6 text-purple-400" /> */}
+            <span className="text-purple-400 text-sm font-mono uppercase tracking-wider">Technical Expertise</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
             Technical <span className="text-transparent bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text">Skills</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            A comprehensive toolkit spanning full-stack development, AI integration, and design
+            A comprehensive toolkit spanning full-stack development, AI integration, and modern design
           </p>
         </motion.div>
 

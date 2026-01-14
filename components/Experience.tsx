@@ -16,7 +16,7 @@ const Experience = () => {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 mb-4">
-            <Briefcase className="w-6 h-6 text-purple-400" />
+            {/* <Briefcase className="w-6 h-6 text-purple-400" /> */}
             <span className="text-purple-400 text-sm font-mono uppercase tracking-wider">Career Path</span>
           </div>
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
