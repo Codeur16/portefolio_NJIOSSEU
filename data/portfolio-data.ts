@@ -185,6 +185,28 @@ export const projects = [
     demo: null,
     year: '2023',
     client: 'Freelance'
+  },
+  {
+    id: 7,
+    title: 'Portfolio Personnel',
+    category: 'design',
+    featured: true,
+    image: '',
+    shortDescription: 'Portfolio personnel moderne avec animations fluides et design épuré',
+    fullDescription: 'Un portfolio personnel moderne mettant en valeur mes compétences en développement web et en design. Le site présente une expérience utilisateur fluide avec des animations subtiles, un design responsive et une navigation intuitive.',
+    problemSolved: 'Création d\'une présence en ligne professionnelle pour présenter mes projets et compétences de manière attrayante.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    features: [
+      'Design moderne et épuré',
+      'Animations fluides avec Framer Motion',
+      'Mode sombre/clair',
+      'Optimisé pour le référencement',
+      'Temps de chargement rapide'
+    ],
+    github: 'https://github.com/Codeur16/portfolio',
+    demo: 'https://njiosseu-loic.vercel.app',
+    year: '2025',
+    client: 'Personnel'
   }
 ];
 

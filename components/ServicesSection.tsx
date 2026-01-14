@@ -27,13 +27,13 @@ const ServicesSection = () => {
             Services & Expertise
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 sm:mb-6">
-            Ce que je{' '}
+            What I {' '}
             <span className="text-transparent bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text">
-              propose
+               offer
             </span>
           </h2>
           <p className="text-slate-400 text-sm sm:text-base lg:text-lg max-w-xs sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto px-4">
-            Des solutions techniques complètes, de la conception à la livraison
+            Complete technical solutions, from design to delivery
           </p>
         </motion.div>
 
