@@ -349,7 +349,7 @@ export const projects = [
   client: 'Various Clients'
 },
 {
-  id: 14,
+  id: 13,
   title: 'Automation Workflow – WhatsApp Assistant for Car Sales',
   category: 'automation',
   featured: true,
@@ -375,6 +375,51 @@ export const projects = [
   demo: '',
   year: '2025',
   client: 'Valtransauto -GOCAS'
+},
+{
+  id: 14,
+  title: 'Design of Tsotsa platform',
+  category: 'design',
+  featured: true,
+  image: '/images/tsotsaDesign.png',
+  shortDescription: 'Design of Tsotsa platform',
+  fullDescription: 'Developed the design of Tsotsa platform, focusing on user interface, user experience, and design system. The project involved creating a cohesive and visually appealing system for the platform, including navigation, user flows, and visual elements. The design was created on Figma to allow rapid prototyping and user testing.',
+  problemSolved: 'Created a professional and user-friendly design for Tsotsa platform to enhance user experience and improve visual appeal.',
+  technologies: [
+    'Figma'
+  ],
+  features: [
+    'User Interface',
+    'User Experience',
+    'Design system'
+  ],
+  github: '',
+  demo: 'https://www.figma.com/design/Ro9toV51ginSMxnT5a8Q6M/TSOTSA?node-id=32-1322&t=iT4Hh6GYEJvyXPah-0',
+  year: '2025',
+  client: 'TSOTSA Plateform'
+},
+
+{
+  id: 15,
+  title: 'Design of 3MConsulting plateform',
+  category: 'design',
+  featured: true,
+  image: '/images/3mconsul-design.png',
+  shortDescription: 'Design of 3MConsulting platform',
+  fullDescription: 'Developed the design of 3MConsulting platform, focusing on user interface, user experience, and design system. The project involved creating a cohesive and visually appealing system for the platform, including navigation, user flows, and visual elements. The design was created on Figma to allow rapid prototyping and user testing.',
+  problemSolved: 'Created a professional and user-friendly design for 3MConsulting platform to enhance user experience and improve visual appeal.',
+  technologies: [
+    'Figma'
+  ],
+  features: [
+    'User Interface',
+    'User Experience',
+    'Design system'
+  ],
+  github: '',
+  demo: 'https://www.figma.com/design/8rdpPPjwoHC5O9P6vSO8cC/My-3MConsulting?node-id=1-3200&p=f&t=XVdZIE0Z5saBdf3K-0',
+  year: '2023',
+  client: '3MConsulting Plateform'
 }
 
 

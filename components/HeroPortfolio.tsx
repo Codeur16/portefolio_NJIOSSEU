@@ -98,7 +98,7 @@ const HeroPortfolio = () => {
             
             {/* Contenu gauche - Toujours en premier sur mobile */}
             <motion.div
-              initial={{ opacity: 0, x: -80 }}
+              initial={{ opacity: 0, x: -80 }} 
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="relative order-2 lg:order-1"
@@ -166,7 +166,7 @@ const HeroPortfolio = () => {
                 transition={{ delay: 0.5, duration: 0.8 }}
                 className="text-base text-gray-400 mb-8 max-w-2xl"
               >
-                {personalInfo.subtitle || 'Full Stack Developer & AI Enthusiast'}
+                {personalInfo.subtitle || 'Full Stack Developer & AI Engineer'}
               </motion.p>
 
               {/* Boutons CTA */}
@@ -260,7 +260,7 @@ const HeroPortfolio = () => {
                       <div className="absolute inset-0 flex items-center justify-center p-4">
                         <div className="relative w-full h-full max-w-[300px] max-h-[350px] mx-auto">
                           <img
-                            src="/images/Loico5.png"
+                            src="/images/Loico5.webp"
                             alt="Profile"
                             className="absolute inset-0 w-full h-full object-cover rounded-lg"
                             style={{
@@ -324,7 +324,7 @@ const HeroPortfolio = () => {
                         <div className="relative w-[85%] h-[90%] flex items-center justify-center">
                           <div className="relative w-full h-full">
                             <img
-                              src="/images/Loico5.png"
+                               src="/images/Loico5.webp"
                               alt="Profile"
                               className="absolute inset-0 w-full h-full object-cover rounded-xl"
                               style={{
